@@ -1,0 +1,75 @@
+
+body{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    background-size: cover;
+}
+.passwordInput{
+    margin-top: 5%; 
+    text-align :center;
+}
+
+.displayBadge{
+    margin-top: 5%; 
+    display: none; 
+    text-align :center;
+}
+.login{
+
+    width :300px;
+    padding: 30px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(203, 230, 247);
+    text-align: center;
+
+}
+.login h2{
+    color:black ;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.login input[type="text"],.login input[type="password"],.login input[type="email"]
+{
+ border: 0;
+ background: none;
+ display: block;
+ margin: 20px auto;
+ text-align:center ;
+ border: 3px solid #0367fd;
+ padding:15px 10px;
+ width: 220px;
+ outline: none;
+ color: white;
+ border-radius: 24px;
+ transition: 0.25px;
+
+}
+.login input[type="text"]:focus,.login input[type="password"]:focus,.login input[type="email"]:focus
+{
+width: 270px;
+border-color: #ffc400ec;
+}
+.login input[type="submit"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align:center ;
+    border: 3px solid #ffc400ec;
+    padding:14px 35px;
+    outline: none;
+    color: rgb(175, 25, 175);
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+.login input[type="submit"]:hover
+{
+    background: #ffc400ec;
+
+}
